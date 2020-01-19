@@ -1,4 +1,4 @@
-# CMPT 732 Project: London Commute Analysis
+# London Commute Analysis
 
 ## Introduction
 
@@ -16,9 +16,7 @@ Looking at how transport plays the role of a backbone of a city, this project fo
 * Frontend: Dash by Plotly  
 
 ## Data Sources
-The data sources are CSV files, JSON API's, live bus arrivals from Transport For London Network. In addition to this, twitter API is used to fetch live twitter data. 
-
-Data from twitter is accessed live
+The data sources are CSV files, JSON API's, live bus arrivals combining 10 GB in size obtained from Transport For London Network. In addition to this, twitter API is used to fetch live twitter data. 
 
 ## ETL Execution Instructions
 * `python3 dataload_Accident.py` to execute ETL job for accident data.  
