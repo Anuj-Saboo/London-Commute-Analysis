@@ -11,10 +11,10 @@ from app import app
 app.config['suppress_callback_exceptions']=True
 nav = Navbar()
 
-consumerkey = "Kzvz0U6BnEe2agvFrYJ5Y7QWB"
-consumersecret = "fPtrQdzjzqpO0sL3MEyrtP6qhB1QPgOqRjgzAKv5TVVVCVhQE3"
-accesstoken = "834530227-CTHfzXJ2pDhYuNqHSdN7wQdCeIaPwD3wnHd5pUfW"
-accesssecret = "OEWbAA2mzFqVjALczMvrICYrceDGXcThtc1kAq27UYYOM"
+consumerkey = ""
+consumersecret = ""
+accesstoken = ""
+accesssecret = ""
 twitter = Twython(consumerkey, consumersecret)
 auth = tweepy.OAuthHandler(consumer_key=consumerkey,consumer_secret=consumersecret)
 auth.set_access_token(accesstoken,accesssecret)
